@@ -1,0 +1,20 @@
+!pip install leafmap
+
+import leafmap
+
+# Creat an interactive map
+m = leafmap.Map(center=[20, 0], zoom=2, height="600px")
+# Add basemap
+m.add_basemap("CartoDB.DarkMatter")
+# Add text to the map
+text = "Made by Meysam Ansari"
+m.add_text(text, fontsize=33, position="bottomright")
+# Add a logo to the map
+logo = "https://i.imgur.com/at4Qprk.png"
+m.add_image(logo, position="bottomright")
+# Add GeoJSON data to the map
+cables = "https://opengeos.org/data/vector/cables.geojson"
+callback = lambda feat: {"color": feat["properties"]["color"], "weight": 1}
+m.add_geojson(cables, layer_name="Cable lines", style_callback=callback)
+# Display the map
+m
