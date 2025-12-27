@@ -16,10 +16,5 @@ Below is a screenshot of the generated interactive map:
 
 ![Lab 1 Map](MapScrnSht.png)
 
-Notebook
-The full executable notebook is available here:
-- [lab1_map.ipynb](LeafMapy.ipynb.ipynb)
-
-
 Notes
 - The notebook was developed and executed in Google Colab.
