@@ -1,3 +1,6 @@
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sE_70vbkDpxslKFOHK8Lsu9eZ_rjahRJ?usp=sharing#scrollTo=1)
+
 # Spatial-data-management-gee
 Spatial Data Management with Google Earth Engine
 # Lab 1 – Interactive Mapping with Leafmap
