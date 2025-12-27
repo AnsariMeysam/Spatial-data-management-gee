@@ -11,12 +11,11 @@ Creating an interactive global map using the `leafmap` Python package, customizi
 Output
 Below is a screenshot of the generated interactive map:
 
-![Lab 1 Map](lab1_map_screenshot.png)
+![Lab 1 Map](MapScrnSht.png)
 
-## Notebook
+Notebook
 The full executable notebook is available here:
-- `lab1_leafmap.ipynb`
+- `LeafMapy.ipynb`
 
-## Notes
+Notes
 - The notebook was developed and executed in Google Colab.
-- Runtime was restarted and all cells were executed before export.
