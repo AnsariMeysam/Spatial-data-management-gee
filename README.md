@@ -1,2 +1,22 @@
 # Spatial-data-management-gee
 Spatial Data Management with Google Earth Engine
+# Lab 1 – Interactive Mapping with Leafmap
+
+Spatial Data Management with Google Earth Engine  
+Tool: Google Colab + Leafmap  
+
+Objective
+Creating an interactive global map using the `leafmap` Python package, customizing basemaps, adding vector data, and annotating the map with text and a logo.
+
+Output
+Below is a screenshot of the generated interactive map:
+
+![Lab 1 Map](lab1_map_screenshot.png)
+
+## Notebook
+The full executable notebook is available here:
+- `lab1_leafmap.ipynb`
+
+## Notes
+- The notebook was developed and executed in Google Colab.
+- Runtime was restarted and all cells were executed before export.
